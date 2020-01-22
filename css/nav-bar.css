@@ -21,6 +21,18 @@
   position: relative;
 }
 
+@keyframes bigAndSmall{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: scale(2, 2);
+  }
+  100%{
+    transform: none;
+  }
+}
+
 .nav .nav__badge {
   position: absolute;
   top: -7px;
@@ -34,6 +46,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+}
+
+.nav__badge{
+  animation: bigAndSmall 1s ease-in-out;
+  animation-delay: 1s;
 }
 
 @keyframes showNavBar {
