@@ -1,3 +1,7 @@
+.chats {
+  min-height: 10000vh;
+}
+
 .friend {
   display: flex;
   justify-content: space-between;

@@ -1,3 +1,7 @@
+.more{  
+  min-height: 1000vh;
+}
+
 .more .more__btn-list,
 .more .more__suggestions-list {
   margin: 30px 0px;
